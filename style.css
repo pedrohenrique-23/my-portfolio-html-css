@@ -1,0 +1,17 @@
+body {
+    font-family: "Heebo", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: black;
+    margin-right: 23px;
+}
