@@ -5,6 +5,8 @@ body {
 nav {
     display: flex;
     justify-content: end;
+    max-width: 1152px;
+    margin: 27px auto 0;
 }
 
 nav a {
@@ -14,4 +16,45 @@ nav a {
     text-decoration: none;
     color: black;
     margin-right: 23px;
+}
+
+.about-me-section {
+    width: 860px;
+    margin: 175px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-section div h1 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+.about-me-section div p {
+    width: 497px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.about-me-section div button {
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    border: none;
+    background: #FF6464;
+    border-radius: 2px;
+    cursor: pointer;
+
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+}
+
+.about-me-section div img {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
 }
