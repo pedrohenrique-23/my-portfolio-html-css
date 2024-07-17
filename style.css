@@ -114,7 +114,58 @@ nav a {
     margin: 55px auto;
 }
 
+.experience-container section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .experience-container h2 {
-    margin-left: 110px;
+    margin: 0 0 15px 110px;
     font-size: 28px;
+}
+
+.experience-item {
+    width: calc(50% - 20px);
+    background-color: #384772;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 48px;
+    color: #FFF;
+}
+
+.experience-item img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.experience-item h3 {
+    font-size: 33px;
+    margin: auto 0 25px 13px;
+}
+
+.experience-item p {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.experience-item span {
+    margin: 26px 0;
+    width: 100%;
+    font-size: 22px;
+}
+
+.experience-item ul {
+    width: 100%;
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.experience-item ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
 }
