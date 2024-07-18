@@ -169,3 +169,29 @@ nav a {
     font-size: 18px;
     margin-bottom: 8px;
 }
+
+.skills-container {
+    width: 100%;
+}
+
+.skills-container h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.skills-container div {
+    width: 100%;
+    background-color: #384772;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container div img {
+    height: 75px;
+}
+
+.skills-container div img+img {
+    margin-left: 23px;
+}
