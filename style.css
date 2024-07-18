@@ -195,3 +195,29 @@ nav a {
 .skills-container div img+img {
     margin-left: 23px;
 }
+
+footer {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #E0E0E0;
+    padding-top: 31px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer img+img {
+    margin-left: 35px;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 45px;
+}
