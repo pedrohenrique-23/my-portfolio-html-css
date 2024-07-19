@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Heebo", sans-serif;
 }
@@ -88,6 +92,11 @@ nav a {
     margin: 0 0 20px 0;
     padding-bottom: 16px;
     border-radius: 8px;
+}
+
+.projects-container div a {
+    text-decoration: none;
+    color: #000;
 }
 
 .projects-container div div {
