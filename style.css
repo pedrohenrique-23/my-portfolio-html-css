@@ -276,6 +276,7 @@ footer p {
 
     #my-projects-section {
         display: flex;
+        width: 100%;
     }
 
     #my-projects-section section h2 {
@@ -324,6 +325,10 @@ footer p {
         flex-wrap: wrap;
     }
 
+    #experience-container h2 {
+        font-size: 24px;
+    }
+
     .experience-item {
         width: 340px;
         margin-left: auto;
@@ -349,5 +354,9 @@ footer p {
 
     .experience-item ul li {
         font-size: 15px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
