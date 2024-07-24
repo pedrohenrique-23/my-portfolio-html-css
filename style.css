@@ -220,6 +220,10 @@ footer img {
     height: 30px;
 }
 
+footer a+a {
+    margin-left: 35px;
+}
+
 footer img+img {
     margin-left: 35px;
 }
